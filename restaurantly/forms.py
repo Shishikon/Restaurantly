@@ -37,7 +37,7 @@ class BookTableForm(forms.ModelForm):
             }),
 
             'phone': forms.NumberInput(attrs={
-                'type': 'number',
+                'type': 'text',
                 'class': 'form-control',
                 'name': 'phone',
                 'id': 'phone',
