@@ -1,0 +1,32 @@
+{% load static %}
+
+<section id="events" class="events">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Events</h2>
+            <p>Organize Your Events in our Restaurant</p>
+        </div>
+
+        <div class="events-slider swiper" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+                <!--event-birthday start-->
+                {% include 'restaurant/components/sub_components/__events_event-birthday.html' %}
+                <!--event-birthday end-->
+
+
+                <!--event-private start-->
+                {% include 'restaurant/components/sub_components/__events_event-private.html' %}
+                <!--event-private end-->
+
+
+                <!--event-custom start-->
+                {% include 'restaurant/components/sub_components/__events_event-custom.html' %}
+                <!--event-custom end-->
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+</section>

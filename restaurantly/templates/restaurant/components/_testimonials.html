@@ -1,0 +1,20 @@
+{% load static %}
+
+
+<section id="testimonials" class="testimonials section-bg">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Testimonials</h2>
+            <p>What they're saying about us</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+                {% include 'restaurant/components/sub_components/__testimonials_testimonials-list.html' %}
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+</section>
