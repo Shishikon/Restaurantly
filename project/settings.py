@@ -119,7 +119,7 @@ STATICFILES_DIRS = [
 
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://restaurantly-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://restaurantly-restaurantly.up.railway.app']
 
 MEDIA_URL = '/media/'
 
