@@ -1,24 +1,24 @@
-# 🍽️ Restaurantly
+#  Restaurantly
 
 > A modern restaurant management and reservation platform built with Django — where guests book tables and leave with a QR code in hand.
 
 ![Restaurantly](https://github.com/user-attachments/assets/00397658-18fe-4051-a09f-5e4c985c4d05)
 
-🌐 **Live Demo:** [restaurantly-restaurantly.up.railway.app](https://restaurantly-restaurantly.up.railway.app)
+ **Live Demo:** [restaurantly-restaurantly.up.railway.app](https://restaurantly-restaurantly.up.railway.app)
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📅 **Table Reservations** — Guests can book a table by selecting date, time, and party size
-- 🔑 **QR Code Generation** — Every confirmed reservation generates a unique QR code instantly
-- 📲 **Scan or Download** — Guests can scan the QR code directly or download it for later
-- 🗄️ **Reservation Storage** — All bookings are stored in the database and manageable via admin panel
-- 🔐 **Admin Panel** — Full control over reservations, menu, and restaurant settings
+-  **Table Reservations** — Guests can book a table by selecting date, time, and party size
+-  **QR Code Generation** — Every confirmed reservation generates a unique QR code instantly
+-  **Scan or Download** — Guests can scan the QR code directly or download it for later
+-  **Reservation Storage** — All bookings are stored in the database and manageable via admin panel
+-  **Admin Panel** — Full control over reservations, menu, and restaurant settings
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -31,7 +31,7 @@
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.10+
@@ -65,7 +65,7 @@ Then open [http://localhost:8000](http://localhost:8000) in your browser.
 
 ---
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 Create a `.env` file or set these in your hosting dashboard:
 
@@ -77,7 +77,7 @@ ALLOWED_HOSTS=your-domain.com
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Restaurantly/
@@ -92,7 +92,7 @@ Restaurantly/
 
 ---
 
-## 🖼️ How Reservations Work
+## How Reservations Work
 
 1. Guest fills out the reservation form (name, date, time, party size)
 2. System saves the booking to the database
@@ -102,13 +102,7 @@ Restaurantly/
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Shishikon** — Trilingual Python Developer
 - GitHub: [@Shishikon](https://github.com/Shishikon)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
